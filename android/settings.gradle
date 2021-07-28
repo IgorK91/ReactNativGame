@@ -1,0 +1,19 @@
+rootProject.name = 'IgorKorTest'
+include ':react-native-advertising-id'
+project(':react-native-advertising-id').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-advertising-id/android')
+include ':react-native-ip-sec-vpn'
+project(':react-native-ip-sec-vpn').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ip-sec-vpn/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
+include ':react-native-advertising-id'
+project(':react-native-advertising-id').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-advertising-id/android')
+include ':react-native-ip-sec-vpn'
+project(':react-native-ip-sec-vpn').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ip-sec-vpn/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
